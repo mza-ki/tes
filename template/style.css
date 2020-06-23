@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Roboto:wght@500&display=swap');
+body{
+   margin: 0;
+   padding: 10px 50px;
+   font-family: Arial, Helvetica, sans-serif;
+   min-height: 150vh;
+}
+/* header */
+.header{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 18px;
+}
+.img-logo{
+   width: 150px;
+   height: 30px;
+}
+.menu{
+   display: inline;
+}
+.menu li{
+   display: inline;
+   padding: 16px;                                                          
+}
+.menu li a{
+   text-decoration: none;
+}
+.menu li a:hover{
+   color: blue;
+}
+/* content */
+.content{
+   height: 50%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+.content .btn-explore{
+   background-color: green;
+   color: white;
+   padding: 10px 40px;
+   border-radius: 30px;
+   font-size: 13px;
+   font-family: 'Roboto', sans-serif;
+   text-decoration: none;
+}
+ .content .content-img{
+   padding-right: 16px;
+}
+
+/* icon */
+.icon-list{
+   position: fixed;
+   bottom: 0;
+   right: 50px;
+   
+}
+.icon-list li{
+   display: inline;
+   float: left;   
+}
+.icon-list li a{
+   font-size: 24px;
+   display: block;
+   width: 36px;
+   height: 36px;
+   border: 1px solid #ddd;
+   text-align: center;
+   border-radius: 50%;
+   box-sizing: border-box;
+   padding: 4px 6px;
+}
+.scrool{
+   position: fixed;
+   bottom: 0;
+   left: 50%;
+}
+.scrool div{
+   position: relative; 
+   padding: 8px;
+}
+.scrool div p{
+   margin: 0 auto;
+}
